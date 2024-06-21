@@ -11,7 +11,7 @@ from ..exceptions import SecurityError
 __all__ = ["read_request", "read_response"]
 
 MAX_HEADERS = 128
-MAX_LINE = 8192
+MAX_LINE = 10240
 
 
 def d(value: bytes) -> str:
