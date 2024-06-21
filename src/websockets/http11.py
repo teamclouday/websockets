@@ -13,7 +13,7 @@ MAX_HEADERS = 128
 
 # Limit request line and header lines. 8KiB is the most common default
 # configuration of popular HTTP servers.
-MAX_LINE = 8192
+MAX_LINE = 10240
 
 # Support for HTTP response bodies is intended to read an error message
 # returned by a server. It isn't designed to perform large file transfers.
